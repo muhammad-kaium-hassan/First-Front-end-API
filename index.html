@@ -44,13 +44,19 @@
             <div id="search-container">
                 <div id="search-bar">
                     <i class="fa-solid fa-magnifying-glass"></i>
-                    <input type="text" placeholder="Search Your Phone" />
+                    <input id="search-input-field" type="text" placeholder="Search Your Phone" />
                 </div>
                 <div id="search-btn">
-                    <button class="btn">Search</button>
+                    <button onclick="handleSearch()" class="btn">Search</button>
                 </div>
             </div>
 
+        </section>
+        <!--Loading section-->
+        <section id="loading-section">
+            <div id="loader-animation" class="loader hidden">
+
+            </div>
         </section>
         <!-- card section -->
         <section id="card-section">
@@ -153,6 +159,7 @@
               </div>
         </section>
     </main>
+    <script src="./js/store.js"></script>
 </body>
 
 </html>
