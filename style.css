@@ -174,3 +174,79 @@ header{
   @keyframes l25 {
     100% {transform: rotate(1turn)}
   }
+  #footer_Section{
+    background-color: #E4E0EC;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+#all_items{
+ 
+    margin-top: 100px;
+    padding: 20px;
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 120px;
+}
+#Footer_title{
+   
+    width: 70%;
+}
+#Footer_title >h2{
+    font-size: 48px;
+    font-weight: 600;
+}
+#Footer_title >p{
+    color:#706F6F;
+    font-weight: 600;
+    font-size: 18px;
+}
+#icon_And_btn{
+    display: flex;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-left: 40px;
+    
+}
+#icon{
+    font-size: 30px;
+    margin: 0 auto;
+    margin-top: 5px;
+
+}
+hr{
+    color: gray;
+}
+#footer_Section_two{
+    background-color: #E4E0EC;
+    display: flex;
+    margin: 0 auto;
+    gap: 10px;
+    margin-bottom: 10px;
+    height: auto;
+    padding: 80px;
+    grid-template-columns: repeat(4, 1fr);
+}
+.fouth_div {
+  width: 100%;
+  align-items: center;
+  margin-left: 10%;
+}
+.fouth_div p{
+    color: black;
+    font-weight: bolder;
+    margin-top: 20px;
+    cursor: pointer;
+    font-weight: 400;
+}
+#copysection{
+    background-color:#F7EAEA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    font-size: 14px;
+}
